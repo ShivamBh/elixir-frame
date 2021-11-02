@@ -26,7 +26,8 @@ defmodule Elxframe.MixProject do
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.0"},
       {:sqlite_ecto, "~> 1.0.0"},
-      {:ecto, "~> 1.0"}
+      {:ecto, "~> 1.0"},
+      {:plug_cowboy, "~> 1.0"}
     ]
   end
 end
